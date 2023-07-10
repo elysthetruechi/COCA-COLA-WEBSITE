@@ -90,23 +90,20 @@
     margin: 50px auto;
 }
 .bar .bar-content .text p{
-    font-weight: 400;
-    font-family: Arial;
-    line-height: 18.4px;
-    font-size: 13px;
-    top:70px;
+font-weight: 400;
+font-family: Arial;
+font-size: 13px;
+top:30px;
 position: relative;
 color: black;
 }
 .bar .bar-content .text u{
-top:55px;
+top:0px;
 position: relative;
 font-family: Arial;
 font-size: 38px;
 font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
+text-align: left; 
 
 }
 .body .body-content{

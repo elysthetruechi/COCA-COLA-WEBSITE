@@ -96,12 +96,20 @@
   .home .home-content .photos img{
     width: 100%;
     position: relative;
-    top:30px;
+    top:10px;
+    z-index:1;
+  }
+  .beam img{
+    position: relative;
+    right: 400px;
+  }
+  .beam{
+    display:flex;
   }
   .layer {
     width:100%;
     height:40%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #000);
+    background: linear-gradient(rgba(214, 5, 5, 0.877), #000);
     position: absolute;
     left: 0;
     top:30px;
@@ -117,17 +125,17 @@
     color: #fff;
     font-size: 25px;
     position: relative;
-    bottom: 0px;
+    bottom: 150px;
     font-family: Arial;
     text-align: center;
   }
   .layer p{
     color: #fff;
     position: relative;
-    bottom: 0px;
+    bottom: 140px;
     letter-spacing: 1.5px;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     font-family: Arial;
   }
   .little .little-content{
@@ -262,12 +270,14 @@ margin-top: 10px;
     width: 100%;
     font-family: Arial;
     margin-top: 10px;
+    margin-left:5px;
 }
 .news .news-content .newz .newsbox .body{
-    font-size: 12px;
+    font-size: 11px;
     width: 100%;
     font-family: Arial;
     margin-top: 10px;
+    margin-left:5px;
 }
 .news .news-content .newz .newsbox a{
     display: inline-flex;

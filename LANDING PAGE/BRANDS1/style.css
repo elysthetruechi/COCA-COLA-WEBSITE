@@ -200,7 +200,7 @@
   .coke .coke-content .right2 .two{
     width: 40%;
     height: 180px;
-    border: 2px solid orange;
+    border: 2px solid red;
     padding: 50px;
     border-radius:4px;
     position: relative;
@@ -367,6 +367,48 @@
       position: relative;
       left: 20px;
       top: 30px;
+  }
+  .rem img{
+    width: 66px;
+    position: relative;
+    left: 97%;
+  }
+  .rim img{
+    width: 66px;
+    position: relative;
+  right:21%;
+  bottom:115px;
+  }
+  .rom img{
+    width: 66px;
+    position: relative;
+    left: 97%;
+  }
+  .ram img{
+    width: 66px;
+    position: relative;
+  right:21%;
+  bottom:115px;
+  }
+  .rum img{
+    width: 66px;
+    position: relative;
+    left: 97%;
+  }
+  .title span{
+    display: inline-block;
+    margin-left:0px;
+    width: 100%;
+    margin-bottom:10px;
+    color:white;
+    font-size: 13px;
+    font-family: arial;
+    position: relative;
+    right: 50px;
+    top: 65px;
+    font-weight: 0;
+    text-shadow: 1px 1px 1px rgba(245, 3, 3, 0.9);
+    font-size: 50px;
   }
   .nut{
     border:none;

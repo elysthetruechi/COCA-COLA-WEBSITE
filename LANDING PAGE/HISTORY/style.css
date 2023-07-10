@@ -153,8 +153,10 @@
     text-align: center;
     margin-bottom: 4px;
     font-size: 13px;
-   
-
+  }
+  .home .home-content .box ul li a{
+    color: white;
+    cursor: pointer;
   }
   .home .home-content .box ul li:hover{
     border: 1px solid white;

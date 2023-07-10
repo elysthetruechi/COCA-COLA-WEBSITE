@@ -89,6 +89,7 @@ border: none;
   /*align-items: center;*/
   background-attachment: fixed;
   min-height: 350px;
+  text-overflow: ellipsis;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -112,6 +113,28 @@ border: none;
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
+}
+.owl-dots{
+  position: relative;
+ display:grid;
+ grid-template-columns: 30px 30px 20px;
+ text-align: center;
+right: 190px;
+justify-content: center;
+align-items:center;
+}
+.owl-dot{
+  display: grid;
+  height: 13px;
+  width: 13px;
+  outline: none !important;
+  border-radius: 50% ;
+  border: 2px solid rgb(153, 128, 2)!important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active{
+  width: 13px;
+  border-radius:50%;
 }
 .layer h3{
   color: #fff;
@@ -403,7 +426,26 @@ border: none;
 .vecc img{
   width: 100%;
 }
-
+.vecc .row img{
+  position: relative;
+  bottom: 435px;
+  margin:0px;
+}
+.row{
+  width: 98.7vw;
+  height:68%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #000);
+  position: absolute;
+  left: 0;
+  top:1485px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+}
 .explore {
   background-image: url("Rectangle 22.png");
 }

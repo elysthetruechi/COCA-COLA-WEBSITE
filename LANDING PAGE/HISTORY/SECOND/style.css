@@ -227,6 +227,7 @@
     font-weight:550;
   }
   .events{
+    padding-top: 10px;
     border-bottom: 1px solid black;
   }
   .events .events-content .title{
@@ -240,16 +241,17 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-            /*gap: 15px 10px;*/
             grid-auto-flow: column dense;
             grid-template-areas:
-              ". ."
-              ". ."
-              ". ."
-              ". .";
+              ".."
+              ".."
+              ".."
+              "..";
         width: 90%;
         justify-self: center;
         margin-left: 35px;
+        position: relative;
+        left: 40px;
           }
           .par1 img{
             width: 80%;
@@ -300,15 +302,15 @@
             transition: all 0.3s ease;
             font-family: Arial;
             position: relative;
-            left: 35%;
-            top:0px;
+            left: 38%;
+            top:15px;
           }
           .events .events-content a:hover{
             background: red;
             color: #fff;
           }
           .explore {
-            margin-top: 20px;
+            margin-top: 40px;
             background-image: url("Rectangle 22.png");
           }
           .explore .explore-content{
@@ -334,8 +336,10 @@
           .explore .explore-content .countries{
             list-style: none;
             display: flex;
-            width:100%;
-            gap:4.5%
+            width:90%;
+            position: relative;
+            left:80px;
+            gap:3.4%
           }
           .countries ul{
             list-style: none;
@@ -410,8 +414,8 @@
             padding: 12px 20px;
             border-radius: 4px;
             height: 38px;
-            width:100px;
-            border: 1px solid red;
+            width:110px;
+            border: 1.5px solid red;
             transition: all 0.3s ease;
             font-family: Arial;
           }
@@ -433,8 +437,11 @@
             display: block;
           }
           footer .left {
-            width:45%;
-            height:30%;
+            position: relative;
+            left: 15px;
+            top: 20px;
+            width:30%;
+            height:40%;
             display:inline-block;
             justify-content: center;
             align-items: center;
@@ -443,14 +450,22 @@
           footer .left span{
             font-size:23px;
             font-family:Arial ;
+            position: relative;
+            top:15px;
+            
           }
           footer .left p{
             margin-top: 35px;
             font-size: 12px;
             width: 100%;
+            position: relative;
+            top: 30px;
           }
           footer .right {
-            width: 40%;
+            position: relative;
+            left: 20px;
+            top: 25px;
+            width: 30%;
             display:block;
             float:right;
           }

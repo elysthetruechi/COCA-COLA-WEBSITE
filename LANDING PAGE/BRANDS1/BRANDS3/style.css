@@ -5,7 +5,7 @@
     text-decoration: none;
   }
   .max-width {
-  max-width: 100vw;
+  max-width:1440px;
   padding:0;
   margin: 0;
   }
@@ -224,10 +224,55 @@
       ". . ."
       ". . ."
       ". . .";
-      width:300px;
+      width:350px;
+      height: 300px;
       position: relative;
       left: 20px;
       top: 30px;
+      white-space: nowrap;
+  }
+  .nut1, .nut2, .nut3, .nut4, .nut5, .nut6, .nut7, .nut8, .nut9, .nut10, .nut11, .nut12, .nut13, .nut14,.nut15, .nut16, .nut17, .nut18, .nut19, .nut20{
+    position: relative;
+    margin-top:25px;
+    justify-content: space-evenly;
+    
+
+  }
+  .nut1, .nut2, .nut13, .nut14{
+    font-weight: 600;
+  }
+  .nut9, .nut10, .nut11, .nut12{
+    text-align: center;
+  }
+  .nut13, .nut14,.nut15, .nut16, .nut17, .nut18, .nut19, .nut20{
+    text-align: right;
+  }
+  .rem img{
+    width: 66px;
+    position: relative;
+    left: 97%;
+  }
+  .rim img{
+    width: 66px;
+    position: relative;
+  right:21%;
+  bottom:115px;
+  }
+  .rom img{
+    width: 66px;
+    position: relative;
+    left: 97%;
+  }
+  .ram img{
+    width: 66px;
+    position: relative;
+  right:21%;
+  bottom:115px;
+  }
+  .rum img{
+    width: 66px;
+    position: relative;
+    left: 97%;
   }
   .title span{
     display: inline-block;
@@ -244,19 +289,18 @@
     text-shadow: 1px 1px 1px rgba(245, 3, 3, 0.9);
     font-size: 50px;
   }
-  .rem img{
-    width: 66px;
-    position: relative;
-    left: 97%;
-  }
   .nut{
     border:none;
     border-bottom: 1px solid black;
   }
+  .nut6, .nut12, .nut18{
+    border-bottom: none;
+  }
+  
   .explore {
-    margin-top: 100px;
-    border-top: 1px solid black;
+    margin-top: 40px;
     background-image: url("Rectangle 22.png");
+    border-top: 1px solid #000;
   }
   .explore .explore-content{
     flex-wrap: wrap;
@@ -272,7 +316,7 @@
     position: relative;
     text-align: center;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-bottom: 20px;
     font-family:Arial;
     justify-content: center;
@@ -281,8 +325,11 @@
   .explore .explore-content .countries{
     list-style: none;
     display: flex;
-    width:100%;
-    gap:4.5%
+    width:90%;
+    position: relative;
+    left:80px;
+    gap:3.4%;
+    margin-top: 30px;
   }
   .countries ul{
     list-style: none;
@@ -306,10 +353,9 @@
   .countries ul li:hover {
     text-decoration: underline red 1px;
   }
-  .touch{
-    margin-top: 19px;
-  }
+  
   .touch .touch-content{
+    margin-top: 30px;
     flex-wrap: wrap;
     align-items: center;
     justify-content:center;
@@ -359,8 +405,8 @@
     padding: 12px 20px;
     border-radius: 4px;
     height: 38px;
-    width:100px;
-    border: 1px solid red;
+    width:110px;
+    border: 1.5px solid red;
     transition: all 0.3s ease;
     font-family: Arial;
   }
@@ -382,8 +428,11 @@
     display: block;
   }
   footer .left {
-    width:45%;
-    height:30%;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    width:30%;
+    height:40%;
     display:inline-block;
     justify-content: center;
     align-items: center;
@@ -392,14 +441,22 @@
   footer .left span{
     font-size:23px;
     font-family:Arial ;
+    position: relative;
+    top:15px;
+    
   }
   footer .left p{
     margin-top: 35px;
     font-size: 12px;
     width: 100%;
+    position: relative;
+    top: 30px;
   }
   footer .right {
-    width: 40%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    width: 30%;
     display:block;
     float:right;
   }

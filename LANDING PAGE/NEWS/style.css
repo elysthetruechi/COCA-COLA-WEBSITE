@@ -5,7 +5,7 @@
     text-decoration: none;
   }
   .max-width {
-  max-width: 1440px;
+  max-width: 1340px;
   padding:0;
   margin: 0;
   }
@@ -145,9 +145,8 @@
 }
 .little .little-content .littlez{
     margin-bottom:40px;
-    width: 85%;
     position: relative;
-    width: 90%;
+    width: 93%;
     left:78px;
 }
 .little .little-content .lilboxes{
@@ -164,11 +163,12 @@
     color: black;
     font-family: Arial;
     margin-top: 17px;
-    row-gap: 5px;
+    row-gap: 10px;
     position: relative;
     left: 10px;
     width: 100%;
     top: 3px;
+    font-size: 12px;
 }
 .little .little-content .column span l{
   text-align:left;
@@ -179,12 +179,14 @@
   position: relative;
   bottom: 5px;
   width: 100%;
+  font-size: 12px;
+
 }
 .little .little-content .column{
     display:flex;
     width: 270px;
     border-radius: 10px;
-    height: 90px;
+    height: 110px;
     border: 1px solid transparent;
     box-shadow: 0px 10px 8px rgba(16, 14, 14, 0.5);
 }
@@ -205,8 +207,8 @@
 .little .little-content .me img{
     width: 15px;
     position: relative;
-    top: 60px;
-    right: 15px;
+    top: 85px;
+    right: 20px;
 }
 .little .little-content .me img:hover{
   background: pink;
@@ -240,7 +242,7 @@
     border-radius:10px;
 }
 .news .news-content .newz .newsbox img{
-width: 250px;
+width: 280px;
 object-fit:cover;
 }
 .news .news-content .newz .newsbox l{
@@ -253,7 +255,7 @@ margin-left: 15px;
 .news .news-content .newz{
     display: grid;
     position: relative;
-    left:100px;
+    left:70px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr ;
     gap:none;
@@ -263,32 +265,33 @@ margin-left: 15px;
       ". . ."
       ". . .";
       gap: 10%;
-      width:75%;
+      width:70%;
 }
 .news .news-content .newz .newsbox .title{
     font-weight: 600;
-    font-size: 10px;
+    font-size: 12px;
     width: 100%;
     font-family: Arial;
     margin-top: 10px;
     margin-left:15px;
 }
 .news .news-content .newz .newsbox .body{
-    font-size: 10px;
+    font-size: 11.4px;
     width: 100%;
-    white-space: wrap;
+    text-align: left;
     font-family: Arial;
     margin-top: 10px;
     margin-left:15px;
 }
 .news .news-content .newz .newsbox a{
-    display: inline-flex;
+    display:block;
     justify-content:center;
     text-align: center;
     margin-inline: 20px;
     align-self: left;
     position: relative;
     right: 5px;
+    bottom:0px;
     margin-top: 15px;
     background:transparent;
     color: red;
@@ -493,4 +496,19 @@ footer .right .tree{
   border: 1px solid transparent;
   background: grey;
   border-radius: 50%;
+}
+.all .all-content{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  font-family:Arial; 
+  width:50%;
+}
+.all .all-content .all{
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+  position: relative;
+  left:90px;
+  top: 20px;
 }

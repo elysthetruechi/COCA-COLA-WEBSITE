@@ -140,7 +140,7 @@
     margin-bottom:40px;
     width: 85%;
     position: relative;
-    width: 90%;
+    width: 92%;
     left:78px;
 }
 .little .little-content .lilboxes{
@@ -177,7 +177,7 @@
     display:flex;
     width: 270px;
     border-radius: 10px;
-    height: 90px;
+    height: 110px;
     border: 1px solid transparent;
     box-shadow: 0px 10px 8px rgba(16, 14, 14, 0.5);
 }
@@ -198,7 +198,7 @@
 .little .little-content .me img{
     width: 15px;
     position: relative;
-    top: 60px;
+    top: 80px;
     right: 15px;
 }
 .little .little-content .me img:hover{
@@ -231,21 +231,23 @@
     border: 1px solid white;
     box-shadow: 0px 10px 8px rgba(16, 14, 14, 0.5);
     border-radius:10px;
+    width: 100%;
 }
 .news .news-content .newz .newsbox img{
-width: 250px;
+width: 285px;
 object-fit:cover;
 }
-.news .news-content .newz .newsbox .l{
+.news .news-content .newz .newsbox l{
 font-size: 10px;
 font-family: Arial;
 color: black;
 margin-top: 10px;
+margin-left: 10px;
 }
 .news .news-content .newz{
     display: grid;
     position: relative;
-    left:100px;
+    left:70px;
     grid-template-columns: 1fr 1fr 1fr;
     gap:none;
     grid-auto-flow: column dense;
@@ -256,16 +258,18 @@ margin-top: 10px;
 }
 .news .news-content .newz .newsbox .title{
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     width: 100%;
     font-family: Arial;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .news .news-content .newz .newsbox .body{
-    font-size: 12px;
-    width: 100%;
+    font-size: 11px;
+    width: 95%;
     font-family: Arial;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .news .news-content .newz .newsbox a{
     display: inline-flex;

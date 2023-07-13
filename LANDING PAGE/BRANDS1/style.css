@@ -145,12 +145,11 @@
     align-items: center;
     background:transparent;
     color:red;
-    font-size: 8px;
+    font-size: 11px;
     white-space: nowrap;
-    padding: 12px 20px;
+    padding: 11px 20px;
     border-radius: 4px;
     height: 38px;
-    width:100px;
     border: 1px solid grey;
     transition: all 0.3s ease;
     font-family: Arial;
@@ -219,23 +218,23 @@
   }
   .coke .coke-content .right4 .three .sec img{
     position: relative;
-    right:70px;
-    bottom:320px;
+    right:100px;
+    bottom:340px;
     z-index:1;
-    width: 190px;
+    width: 210px;
   }
   .coke .coke-content  .right2 .two img{
-    width: 180px;
+    width: 200px;
     position: relative;
-    right:80px;
-    bottom: 80px;
+    right:90px;
+    bottom: 100px;
     z-index:1;
   }
   .coke .coke-content  .right4 .three img{
-    width: 160px;
+    width: 155px;
     position: relative;
-    right:50px;
-    bottom: 100px;
+    right:70px;
+    bottom: 120px;
     z-index:100;
   }
   .coke .coke-content .right {
@@ -259,51 +258,55 @@
   .coke .coke-content .right .title{
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .coke .coke-content .right2 .title{
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .coke .coke-content .right4 .title{
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .coke .coke-content .left .title{
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .coke .coke-content .left2 .title{
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .coke .coke-content .left2 .title2{
     color: red;
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    top: 30px;
+    position: relative;
   }
   .coke .coke-content .left4 .title2{
     color:red ;
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    top: 30px;
+    position: relative;
   }
   .coke .coke-content .left .title2{
     color:red ;
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    top: 30px;
+    position: relative;
   }
   .coke .coke-content .right .title2{
     color:red ;
     font-size: 15px;
     font-family: Arial;
-    margin-top: 10px;
+    top: 30px;
+    position: relative;
   }
   .coke .coke-content .left .one{
     width: 30%;
@@ -326,10 +329,10 @@
     bottom:30px;
   }
   .coke .coke-content  .left .for img{
-    width: 180px;
+    width: 200px;
     position: relative;
-    right:100px;
-    bottom: 80px;
+    right:120px;
+    bottom: 100px;
     z-index:1;
   }
   .coke .coke-content .right .two{
@@ -343,10 +346,10 @@
     bottom:30px;
   }
   .coke .coke-content  .left .one img{
-    width: 180px;
+    width: 200px;
     position: relative;
-    right:100px;
-    bottom: 80px;
+    right:120px;
+    bottom: 100px;
     z-index:1;
   }
   
@@ -363,10 +366,10 @@
       ". . ."
       ". . ."
       ". . .";
-      width:350px;
+      width:400px;
       height: 300px;
       position: relative;
-      left: 20px;
+      left: 0px;
       top: 30px;
       white-space: nowrap;
   }
@@ -377,8 +380,22 @@
     
 
   }
+  .nut1 .text, .nut2 .text, .nut3 .text, .nut4 .text, .nut5 .text, .nut6 .text{
+    position: relative;
+    left: 30px;
+  }
+  .nut3 .text .j{
+    position: relative;
+    top: 50px;
+    color: red;
+  }
+  .nut13 .text, .nut14 .text, .nut15 .text, .nut16 .text, .nut17 .text, .nut18 .text{
+    position: relative;
+    right: 30px;
+  }
   .nut1, .nut2, .nut13, .nut14{
     font-weight: 600;
+    display: block;
   }
   .nut9, .nut10, .nut11, .nut12{
     text-align: center;
@@ -387,46 +404,44 @@
     text-align: right;
   }
   .rem img{
-    width: 66px;
+    width: 69px;
     position: relative;
-    left: 97%;
+    left: 96%;
   }
   .rim img{
-    width: 66px;
+    width: 69px;
     position: relative;
   right:21%;
   bottom:115px;
   }
   .rom img{
-    width: 66px;
+    width: 69px;
     position: relative;
-    left: 97%;
+    left: 96%;
   }
   .ram img{
-    width: 66px;
+    width: 69px;
     position: relative;
   right:21%;
   bottom:115px;
   }
   .rum img{
-    width: 66px;
+    width: 69px;
     position: relative;
-    left: 97%;
+    left: 96%;
   }
   .title span{
     display: inline-block;
     margin-left:0px;
     width: 100%;
     margin-bottom:10px;
-    color:white;
-    font-size: 13px;
+    color: rgba(236, 27, 22, 0.09);
+    font-size: 80px;
     font-family: arial;
     position: relative;
-    right: 50px;
-    top: 65px;
-    font-weight: 0;
-    text-shadow: 1px 1px 1px rgba(245, 3, 3, 0.9);
-    font-size: 50px;
+    right: 60px;
+    top: 80px;
+    font-weight:700;
   }
   .nut{
     border:none;

@@ -727,7 +727,7 @@ footer .right .tree{
     display: none;
   }
   .explore .explore-content .countries{
-    width: 90%;
+    display: none;
   }
 }
 

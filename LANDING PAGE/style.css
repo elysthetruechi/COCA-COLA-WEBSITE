@@ -693,5 +693,85 @@ footer .right .tree{
     bottom: 80px;
     left:0;
   }
+  .navbar{
+    display: flex;
+    width: 100%;
+    height:80px;
+  }
+  .navbar ul .menu li{
+    display: flex;
+    width: 100%;
+    font-size: 10px;
+   
+  }
+  .logo{ 
+    display: none;
+    font-size: 10px;
+    background-color: red;
+    width:50%;
+  }
+  input{
+    position: relative;
+    left: 10px;
+    width: 50%;
+  }
+  button i{
+    position: relative;
+    left:37px;
+  }
+  .home .home-content{
+  
+  position: relative;
+  }
+  .home .home-content img{
+    display: none;
+  }
+  .explore .explore-content .countries{
+    width: 90%;
+  }
+}
+
+
+/*responsive*/
+@media (max-width: 1300px) {
+  
+}
+@media (max-width: 1104px) {
+ 
+}
+@media (max-width: 947px) {
+  
+}
+@media (max-width: 991px) {
+  
+}
+@media (max-width:912px){
+  
+}
+@media (max-width: 780px) {
+  
+
+
+}
+@media (max-width: 800px) {
+ 
+}
+
+@media (max-width: 690px) {
+  
+}
+@media (max-width: 700px) {
+  
+}
+@media (max-width: 750px) {
+  
+}
+@media (max-width: 630px) {
+  
+}
+@media (max-width: 580px) {
+  
+}
+@media (max-width:425px) {
   
 }

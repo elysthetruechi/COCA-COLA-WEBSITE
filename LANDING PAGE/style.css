@@ -681,26 +681,8 @@ footer .right .tree{
   border-radius: 50%;
 }
 /*responsive*/
-@media (max-width: 768px) {
-  .navbar .max-width {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
-    justify-content: space-between; /* Space items evenly */
-}
-    .navbar .menu li {
-        display: block; /* Stack menu items vertically */
-        margin: 10px 0; /* Add some spacing */
-    }
-
-    .home .home-content .box {
-        width: 90%; /* Make the box take up more width */
-        left: 5%; /* Center it */
-    }
-
-
-    /* Adjust other elements as needed */
-}
-  /*.home .home-content .box{
+@media (max-width:768px){
+  .home .home-content .box{
     display:block;
     background: white;
     width:100%;
@@ -709,8 +691,8 @@ footer .right .tree{
     box-shadow: 0px 10px 8px rgba(16, 14, 14, 0.5);
     position: relative;
     bottom: 80px;
-    left:0;*/
-  
+    left:0;
+  }
   .navbar{
     display: flex;
     width: 100%;
@@ -747,19 +729,14 @@ footer .right .tree{
   .explore .explore-content .countries{
     display: none;
   }
-
+}
 
 
 /*responsive*/
 
-@media (width >= 800px) {
+@media (width >= 800px) {}
 
 
-}
-
-@media (width >= 1400px) {
-
-}
 
 
 
@@ -806,6 +783,6 @@ footer .right .tree{
 @media (max-width: 580px) {
   
 }
-@media (max-width:425px) {*/
+@media (max-width:425px) {
   
-
+}

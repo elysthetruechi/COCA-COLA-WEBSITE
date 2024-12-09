@@ -681,7 +681,7 @@ footer .right .tree{
   border-radius: 50%;
 }
 /*responsive*/
-@media (width <= 800px) {
+@media (max-width: 768px) {
   .navbar .max-width {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap */
@@ -697,10 +697,6 @@ footer .right .tree{
         left: 5%; /* Center it */
     }
 
-    .photos img {
-        width: 100%; /* Make images responsive */
-        height: auto; /* Maintain aspect ratio */
-    }
 
     /* Adjust other elements as needed */
 }
